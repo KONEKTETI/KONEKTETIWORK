@@ -1,0 +1,144 @@
+body {
+    background-color: #01314b;
+}
+
+
+.background {
+    width:fit-content;
+    height:fit-content;
+    /* align to center */
+    margin: 0 auto;
+    
+}
+
+.logo-geden{
+    width: 608px;
+    height: 154px;
+}
+
+.logo-footer {
+    /* Logo Konekteti footer*/
+    width: auto;
+    height: 85px;
+}
+.logo-kmteti {
+    /* Logo KMTETI footer*/
+    width: auto;
+    height: 50px;
+}
+
+.logo-medsos{
+    /* Logo Media Sosial */
+    width: 50px;
+    height: auto;
+}
+
+.bg-secondary {
+    background-color: green !important;
+  }
+
+.bg-navbar{
+    background-color: #143a4f !important;
+}
+
+.tombol{
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer
+}
+
+.tombol:hover {
+    color: #B1F9B5;
+  }
+
+.text-ijo{
+    color: #B1F9B5 !important;
+}
+
+.text-navbar{
+    color: #143a4f !important;
+}
+
+.bg-ijo{
+    background-color: #B1F9B5 !important;
+}
+
+.timeline{
+    max-width: 100%;
+    height: auto;
+}
+
+.tulisan-bold{
+    font-weight: 666;
+}
+
+.coba-coba{
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-calon {
+    margin-top: 28vh;
+    width: 979px;
+    height: 399px;
+
+    background: rgba(217, 217, 217, 0.06);
+    border-radius: 20px;
+}
+
+.foto-calon{
+    background-color: azure;
+    
+}
+
+.bg-tatacara {
+    background: rgba(217, 217, 217, 0.06);
+    border-radius: 20px;
+}
+
+.layar {
+    width: 100vmin;
+    height: 100vmin;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #B1F9B5;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ccfccf;
+    border-radius: 20px;
+  }
+
+
+@media screen and
+(max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: space-between;    
+    }
+}
